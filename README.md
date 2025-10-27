@@ -120,6 +120,11 @@ adhd-test-app/
 │   ├── prompts/              # Development prompts
 │   ├── dependencies/         # Dependency diagrams
 │   └── guides/               # Implementation guides
+├── templates/                # Universal templates
+│   ├── universal-software-template.md
+│   ├── quick-start-guide.md
+│   └── examples/
+│       └── ecommerce-example.md
 ├── src/
 │   ├── app/                  # Next.js App Router
 │   ├── components/           # Reusable components
@@ -148,26 +153,83 @@ adhd-test-app/
 
 Detailed setup instructions akan tersedia setelah Phase 1 completion.
 
+---
+
+## 🎆 **BONUS: Universal Software Development Template**
+
+Repository ini juga berisi **template universal** yang dapat digunakan untuk mengembangkan berbagai jenis aplikasi web modern!
+
+### 🎨 Template Features:
+- ✅ **8 Prompt Modular** yang dapat disesuaikan
+- ✅ **Multiple Tech Stack** support (Next.js, React, Vue.js, etc)
+- ✅ **Scalable Architecture** untuk berbagai kompleksitas
+- ✅ **Production-Ready** workflow
+- ✅ **GitHub Integration** built-in
+
+### 🚀 Quick Start dengan Template:
+
+```bash
+# 1. Clone repository ini sebagai starting point
+git clone https://github.com/donnyusmar/adhd-test-app.git my-new-project
+cd my-new-project
+
+# 2. Gunakan template untuk project baru
+cp templates/universal-software-template.md docs/prompts/my-project-prompts.md
+
+# 3. Customize sesuai kebutuhan project Anda
+# Edit placeholders: [PROJECT_NAME], [TECH_STACK], dll
+
+# 4. Mulai development dengan Prompt 1 di Perplexity Labs!
+```
+
+### 📚 Template Documentation:
+- **[Universal Template](./templates/universal-software-template.md)** - Main template file
+- **[Quick Start Guide](./templates/quick-start-guide.md)** - Step-by-step guide
+- **[E-commerce Example](./templates/examples/ecommerce-example.md)** - Detailed implementation example
+
+### 🎨 Template Applications:
+- **E-commerce Platforms** - Multi-vendor, payment processing
+- **SaaS Applications** - Subscriptions, billing, analytics
+- **Learning Management** - Courses, assessments, progress
+- **Project Management** - Tasks, teams, collaboration
+- **Analytics Dashboards** - Data visualization, reporting
+- **And much more!**
+
+---
+
 ## 📚 Documentation
 
+### ADHD App Specific:
 - [Development Prompts](./docs/prompts/adhd-app-prompts.md)
 - [Dependency Diagram](./docs/dependencies/dependency-diagram.md)
-- [API Documentation](./docs/api/) (Coming soon)
-- [Deployment Guide](./docs/deployment/) (Coming soon)
+- [Development Guide](./docs/guides/development-guide.md)
+
+### Universal Template:
+- [Universal Software Template](./templates/universal-software-template.md)
+- [Quick Start Guide](./templates/quick-start-guide.md)
+- [E-commerce Example](./templates/examples/ecommerce-example.md)
 
 ## 🤝 Contributing
 
-Project ini menggunakan pendekatan modular development:
-1. Ikuti urutan development phases
+### For ADHD App:
+1. Ikuti urutan development phases (1-8)
 2. Test setiap module sebelum lanjut
 3. Dokumentasi setiap perubahan
 4. Follow coding standards
+
+### For Universal Template:
+1. Fork repository
+2. Create example implementation
+3. Add documentation
+4. Submit pull request
+5. Help others with their implementations
 
 ## 📞 Contact & Support
 
 - WhatsApp Consultation: +6285123523484
 - Developer: [donnyusmar](https://github.com/donnyusmar)
 - Issues: [GitHub Issues](https://github.com/donnyusmar/adhd-test-app/issues)
+- Template Questions: Use GitHub Discussions
 
 ## 📄 License
 
@@ -175,6 +237,13 @@ MIT License - see [LICENSE](LICENSE) file for details.
 
 ---
 
-**Status**: 🚧 In Development
+**Status**: 🚧 ADHD App in Development + 🎆 Universal Template Ready!
 **Current Phase**: Ready for Phase 1 implementation
+**Template Status**: ✅ Production Ready
 **Last Updated**: October 27, 2025
+
+---
+
+### 🌟 **Star this repository if you find it useful!**
+### 📢 **Share the template with other developers!**
+### 🚀 **Build amazing applications with modular development!**
